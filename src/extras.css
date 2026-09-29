@@ -1,0 +1,34 @@
+@media(min-width:1051px) and (max-width:1300px){.home-grid{grid-template-columns:240px minmax(0,1fr) 250px}.hero-controls{width:min(900px,76%)}.filters h3{white-space:nowrap}.standard-card{min-height:510px}.standard-card .family-logo.large{min-width:72px}.standard-card .large .logo-fallback{font-size:25px}}
+@media(min-width:1051px){.summary-grid{grid-template-columns:repeat(6,minmax(0,1fr))}.summary-tile{gap:5px;padding:5px}.summary-tile svg{width:19px}.summary-tile small{font-size:10px}}
+.sequence-table th:nth-child(1){width:10%}.sequence-table th:nth-child(2){width:13%}.sequence-table th:nth-child(3){width:12%}.sequence-table th:nth-child(4){width:19%}.sequence-table th:nth-child(5){width:30%}.sequence-table th:nth-child(6){width:16%}
+.hero-compare{height:100px;padding-top:10px}.hero-compare h1{margin-bottom:2px}.hero-compare .hero-aside{top:8px}.insight-list .family-logo{margin-right:8px}.insight-list .family-logo .logo-fallback{font-size:14px}
+@media(max-width:1050px){.compare-toolbar>b{width:100%}.compare-toolbar .selected-standards{flex-basis:100%}.compare-toolbar>.switch-label{margin-left:auto}}
+.family-logo{--logo-width:44px;--logo-height:28px;display:inline-flex;align-items:center;justify-content:center;width:var(--logo-width);height:var(--logo-height);min-width:0;flex:0 0 var(--logo-width)}
+.family-logo.large{--logo-width:120px;--logo-height:56px;width:var(--logo-width);height:var(--logo-height);min-width:0;flex:0 0 var(--logo-width)}
+.family-logo img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.standard-card .card-top{height:56px}.standard-card .family-logo.large{min-width:0}
+.filter-group .family-logo{--logo-width:28px;--logo-height:24px}
+.quick-list .family-logo{--logo-width:44px;--logo-height:28px}
+.selected-standards .family-logo{--logo-width:26px;--logo-height:20px}
+.insight-list .family-logo{--logo-width:44px;--logo-height:28px}
+.comparison-logos .family-logo{--logo-width:52px;--logo-height:36px}
+@media(max-width:700px){.detail-logo .family-logo.large{--logo-width:72px;--logo-height:56px}}
+.family-internal .logo-fallback{font-size:13px;letter-spacing:0;font-style:normal}
+.sequence-panel{padding:13px 8px 8px}
+.sequence-top{gap:12px;padding:0 8px 12px}
+.sequence-top h3{font-size:17px}
+.sequence-filters{gap:6px}
+.sequence-filters .chip{font-size:13px;padding:6px 10px}
+.sequence-filters .switch-label{font-size:13px}
+.sequence-table{font-size:14px}
+.sequence-table th,.sequence-table td{padding:8px 10px;line-height:1.4;vertical-align:middle}
+.sequence-table th{font-size:14px;font-weight:600}
+.sequence-table th:nth-child(1){width:8%}
+.sequence-table th:nth-child(2){width:12%}
+.sequence-table th:nth-child(3){width:12%}
+.sequence-table th:nth-child(4){width:22%}
+.sequence-table th:nth-child(5){width:30%}
+.sequence-table th:nth-child(6){width:16%}
+.category-tag,.requirement{font-size:13px;padding:4px 7px;line-height:1.25}
+@media(max-width:1050px){.detail-side{grid-template-columns:1fr}}
+

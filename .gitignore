@@ -1,0 +1,41 @@
+# Dependencies and production output
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Local caches and generated files
+.vite/
+.cache/
+.eslintcache
+coverage/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.parcel-cache/
+.turbo/
+
+# Temporary files and logs
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.local
+*~
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
